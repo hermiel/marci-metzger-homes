@@ -1,0 +1,93 @@
+
+
+
+@media (max-width: 768px) {
+.navi {
+    display: none;
+  }
+
+.logo {
+    margin: 0 auto;
+}
+.btn-get-started {
+    display: none;
+}
+.btn-get-started2 {
+    margin: 0 auto;
+    display: block;
+}
+body, html { 
+    height: 90%;
+}
+.center-text h1 {
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    font-size: 80px;
+    margin: 200px 0px 100px 0px;
+    line-height: 70px;
+}
+
+
+      
+  .sales { 
+    flex-direction: column; text-align: center; 
+  }
+  .sales img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .sales-text h3 {
+    margin-right: 0px;
+  }
+  .sales-text h2 {
+    margin-right: 0px;
+  }  
+  .sales-text p {
+    margin-right: 0px;
+  }
+  .listing-content {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+  }
+  .search-form {
+    display: none;
+  }
+  .search-listing-text { 
+    font-size: 30px; left: 20px; bottom: 20px; 
+  }
+  .search-form button { 
+    grid-column: span 1; 
+  }
+
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .search-text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+    @media (max-width: 768px) {
+      .realtor-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .realtor-section img, .realtor-section .text {
+        width: 100%;
+      }
+
+    @media (max-width: 900px) {
+      .service-cards { flex-direction: column; }
+
+    }
+    }
