@@ -264,6 +264,10 @@
   text-align: left;
 }
 
+.search-text h3 {
+  display: none;
+}
+
 .search-form {
   padding: 2.5rem;
   border-radius: 20px;
@@ -452,6 +456,9 @@
 }
 .map-container {
   width: 850px;
+}
+.map-container-mobile {
+display: none;
 }
     .map-text h2 {
       font-size: 35px;
