@@ -26,7 +26,10 @@
     nav a { text-decoration: none; font-weight: bold; color: #fff; }
     nav a:hover { color: #7AA33B; }
 
-    .btn-get-started {
+    .btn-get-started2 {
+      display: none;
+    }
+    .btn-get-started, .btn-get-started2 {
       background: #8CB541;;
       color: #fff;
       padding: 0.6rem 1.2rem;
@@ -94,6 +97,7 @@
       text-align: center;
       position: relative;
       z-index: 1;
+      margin: 0 auto;
     }
     .services h2 {
       font-size: 50px;
@@ -152,7 +156,6 @@
       gap: 3rem;
     }
     .sales img {
-      width: 100%;
       max-width: 700px;
       margin-left: 75px;
       margin-bottom: -25px;
@@ -315,18 +318,6 @@
 .search-form button:hover {
   background: #7AA33B;
 }
-/* Responsive */
-@media (max-width: 768px) {
-  .search-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .search-text h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-}
 
     /* Icon Section */
     .icon-section {
@@ -397,8 +388,8 @@
       display: flex;
       align-items: center;
       padding: 50px 80px 50px 80px;
-      margin: 3rem auto;
-      width: 1200px;
+      margin: 100px auto;
+      width: 80%;
       gap: 50px;
     }
     .realtor-section img {
@@ -485,11 +476,12 @@
 .contact-section {
   margin-top: 150px;
   padding: 30px;
-  margin: 25px 150px 150px;
+  margin: 0 auto;
+  margin-bottom: 150px;
   background:#8CB541;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  width: 1200px;
+  width: 80%;
 }
 .contact-section h2 {
   margin-bottom: 15px;
@@ -579,21 +571,3 @@
   font-family: 'Mada', sans-serif;
   opacity: 0.8;
 }
-
-    @media (max-width: 768px) {
-      .realtor-section {
-        flex-direction: column;
-        text-align: center;
-      }
-      .realtor-section img, .realtor-section .text {
-        width: 100%;
-      }
-
-    @media (max-width: 900px) {
-      .service-cards { flex-direction: column; }
-      .sales { flex-direction: column; text-align: center; }
-      .listing-content { grid-template-columns: 1fr; }
-      .search-listing-text { font-size: 30px; left: 20px; bottom: 20px; }
-      .search-form button { grid-column: span 1; }
-    }
-    }
