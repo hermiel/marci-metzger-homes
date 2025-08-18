@@ -1,0 +1,181 @@
+
+
+
+@media (max-width: 1111px) {
+.navi {
+    display: none;
+  }
+
+.logo {
+    margin: 0 auto;
+}
+.btn-get-started {
+    display: none;
+}
+.btn-get-started2 {
+    margin: 10px auto 50px auto;
+    display: block;
+}
+body, html { 
+    height: 90%;
+}
+.center-text h1 {
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+    font-size: 80px;
+    margin:100px 0px 70px 0px;
+    line-height: 60px;
+}
+
+.about {
+    margin: 0 auto;
+}
+
+.services {
+    padding: 80px 0 0 0;
+}
+      
+  .sales { 
+    flex-direction: column; 
+    text-align: center;
+    padding: 25px;
+  }
+  .sales img {
+    width: 100%;
+    margin: 0 auto -40px auto;
+  }
+  .sales-text h3 {
+    margin-right: 0px;
+  }
+  .sales-text h2 {
+    margin-right: 0px;
+  }  
+  .sales-text p {
+    margin-right: 0px;
+  }
+
+  .listing {
+    padding: 0;
+  }
+  .listing img {
+    display: none !important;
+  }
+  .listing-content {
+    text-align: center;
+    width: 100%;
+    margin: -50px auto;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .listing-block h2 {
+    margin: -10px auto;
+  }
+.listing-block p {
+    margin: 25px auto;
+  }
+
+
+.search-listing {    
+    margin: 100px 0 450px 0;
+}
+  .search-listing img {
+    display: none;  
+}
+
+.search-text h1 {
+  display: none !important;
+}
+
+
+  .search-form {
+    margin: 800px 0 800px 0;
+    display: block;
+  }
+  .search-listing-text { 
+    font-size: 30px; left: 20px; bottom: 20px; 
+  }
+  .search-form button { 
+    grid-column: span 1; 
+    background-color: #71952a;
+  }
+
+.search-form button:hover { 
+    background-color: #8CB541;
+  }
+
+
+  .icon-container {
+    gap: 3.5rem;
+    margin-bottom: -20px;
+  }
+
+  .gallery {
+    gap: 0rem;
+  }
+  .photo-gallery {
+    margin-bottom: -20px;
+   }
+
+
+        .realtor-section {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        }
+  .realtor-section img {
+    width: 200px;
+  }
+  .realtor-section h3 {
+    margin-top: -35px;
+    font-size: 20px;
+  }
+  .realtor-section h2 {
+    font-size: 50px;
+    margin: 15px auto;
+  }
+  .realtor-section p {
+    font-size: 15px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .social-links {
+    gap: 10px;
+  }
+
+  .map-container {
+    display: none !important;
+  }
+.map-container-mobile {
+display: block;
+margin-top: -50px;
+}
+.map-text h2 {
+    text-align: center;
+    margin-top: -30px;
+}
+  .map-text {
+    margin: 0 40px 0 40px;
+  }
+
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .search-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .search-text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+
+    @media (max-width: 900px) {
+      .service-cards { flex-direction: column; }
+
+    }
+    
