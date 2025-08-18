@@ -23,7 +23,7 @@ body, html {
     text-align: center;
     padding: 0px 150px 0px 150px;
     font-size: 80px;
-    margin:100px 0px 100px 0px;
+    margin:100px 0px 10px 0px;
     line-height: 60px;
 }
 
@@ -179,6 +179,7 @@ margin-top: -50px;
 
     }
     
+
 
 
 
