@@ -13,7 +13,7 @@
     display: none;
 }
 .btn-get-started2 {
-    margin: 60px auto 50px;
+    margin: 45px auto 50px auto;
     display: block;
 }
 body, html { 
@@ -179,4 +179,5 @@ margin-top: -50px;
 
     }
     
+
 
